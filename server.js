@@ -13,7 +13,8 @@ app.get('/', (req, res) => {
 })
 
 // Define routes
-app.use('/api/v1/products', require('./routes/productRouter'))
+app.use('/api/v1/products', require('./routes/productRouter'));
+app.use('/api/v1/auth', require('./routes/authRouter'))
 
 const PORT = process.env.PORT || 5000;
 
