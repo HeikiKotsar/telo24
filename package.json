@@ -1,0 +1,26 @@
+{
+  "name": "telo24",
+  "version": "1.0.0",
+  "description": "Telo24 api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeikiKotsar/telo24.git"
+  },
+  "author": "Heiki Kotsar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeikiKotsar/telo24/issues"
+  },
+  "homepage": "https://github.com/HeikiKotsar/telo24#readme",
+  "dependencies": {
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
+  }
+}
